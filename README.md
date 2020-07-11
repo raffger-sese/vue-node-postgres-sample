@@ -25,7 +25,7 @@ git clone https://github.com/raffger-sese/vue-node-postgres-sample.git
 CREATE TABLE covid_observations(S_NO INT NOT NULL, OBSERVATION_DATE VARCHAR(255), PROVINCE_STATE VARCHAR(255), COUNTRY_REGION VARCHAR(255), LAST_UPDATE VARCHAR(255), CONFIRMED INT, DEATHS INT, RECOVERED INT, PRIMARY KEY(S_NO));
 
 
-## Star backend server
+## Start backend server
 
 1. Go to ROOT/backend folder
 2. npm install
@@ -36,7 +36,7 @@ CREATE TABLE covid_observations(S_NO INT NOT NULL, OBSERVATION_DATE VARCHAR(255)
   Processed CSV file
     
 
-## Star web app
+## Start web app
 1. Go to ROOT folder
 2. npm install
 3. npm run serve
